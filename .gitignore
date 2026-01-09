@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow directories
+!*/
+
+# Allow data folder
+!data/**
+!data/
+
+# Allow specific project files
+!annotated_bibliography_carmichael.pdf
+!annotated_bibliography_carmichael.Rmd
+!carmichael_final_project.Rmd
+!carmichael_final_project_2.html
+
+# Keep .gitignore itself
+!.gitignore
+
